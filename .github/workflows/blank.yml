@@ -15,5 +15,7 @@ jobs:
         sudo apt install lynx youtube-dl -y
     - name: Test
       run: |
+        ls
+        pwd
         chmod +x cda-dl.sh
         ./cda-dl.sh 
