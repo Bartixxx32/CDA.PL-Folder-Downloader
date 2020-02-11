@@ -8,8 +8,9 @@ Wymagania:
 
  - Lynx<br>
  - YouTube-DL
+ - Aria2
  
-  `sudo apt install lynx youtube-dl`
+  `sudo apt install lynx youtube-dl aria2`
 ## Jak używać
 ***Wersja Bash***:
 <br>
