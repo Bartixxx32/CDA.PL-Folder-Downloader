@@ -8,6 +8,8 @@ Wymagania:
 
  - Lynx<br>
  - YouTube-DL
+ 
+  `sudo apt install lynx youtube-dl`
 ## Jak używać
 ***Wersja Bash***:
 <br>
