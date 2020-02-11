@@ -9,8 +9,11 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Test
+    - name: Install Dependencies
       run: |
         sudo apt update
         sudo apt install lynx youtube-dl -y
+        ./cda-dl.sh 
+    - name: Test
+      run: |
         ./cda-dl.sh 
