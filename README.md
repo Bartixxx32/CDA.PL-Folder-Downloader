@@ -19,6 +19,6 @@ Wymagania:
 <br>***Wersja Docker***
 
     docker pull bartixxx32/cdapl-dl:latest 
-    docker run -it bartixxx32/cdapl-dl "link"
+    docker run -it -v $PWD/Pobrane:/Pobrane bartixxx32/cdapl-dl "link"
 *Pobrane pliki znajdziemy w folderze Pobrane w aktualnej ścieżce*
 
