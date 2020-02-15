@@ -14,7 +14,7 @@ for arch in ${build_architectures[@]}; do
     --build-arg ARCH=${arch} \
     --file $DOCKERFILE_PATH \
     --tag "${IMAGE_NAME}-${arch}"  \
-    --squash  \
+    --compress  \
     .
 done
 
