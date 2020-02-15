@@ -23,3 +23,7 @@ Wymagania:
     docker run -it -v $PWD/Pobrane:/Pobrane bartixxx32/cdapl-dl "link"
 *Pobrane pliki znajdziemy w folderze Pobrane w aktualnej ścieżce*
 
+
+
+
+[![](https://images.microbadger.com/badges/image/bartixxx32/cdapl-dl.svg)](https://microbadger.com/images/bartixxx32/cdapl-dl "Get your own image badge on microbadger.com")
