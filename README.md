@@ -6,9 +6,9 @@ Możesz użyć tego skryptu aby pobrać cały folder z cda.pl
 
 Wymagania:
 
- - Lynx<br>
- - YouTube-DL
- - Aria2
+ - lynx<br>
+ - youtube-dl
+ - aria2
  
   `sudo apt-get install lynx youtube-dl aria2`
 ## Jak używać
