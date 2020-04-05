@@ -1,4 +1,4 @@
-FROM alpine:edge
+FROM skyzyx/alpine-pandoc
 RUN uname -ar > /uname.build
 RUN echo "http://dl-4.alpinelinux.org/alpine/edge/testing" >> /etc/apk/repositories
 RUN apk update ; apk upgrade ; apk add --no-cache lynx make zip pandoc python git aria2
