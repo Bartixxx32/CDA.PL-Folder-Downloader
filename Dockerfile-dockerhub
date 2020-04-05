@@ -1,6 +1,6 @@
 # see hooks/build and hooks/.config
 ARG BASE_IMAGE_PREFIX
-FROM ${BASE_IMAGE_PREFIX}pandoc/latex/
+FROM ${BASE_IMAGE_PREFIX}pandoc/latex
 
 # see hooks/post_checkout
 ARG ARCH
