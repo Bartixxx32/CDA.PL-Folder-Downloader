@@ -2,7 +2,7 @@ FROM pandoc/latex
 RUN uname -ar > /uname.build
 RUN echo "http://dl-4.alpinelinux.org/alpine/edge/testing" >> /etc/apk/repositories
 RUN apk update ; apk upgrade ; apk add --no-cache lynx make zip pandoc python git aria2
-RUN git clone https://github.com/divadsn/youtube-dl.git -b cda
+RUN git clone https://github.com/divadsn/youtube-dl.git -b 3574d22de9
 WORKDIR youtube-dl
 RUN make
 RUN make install
