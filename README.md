@@ -5,13 +5,14 @@ Możesz użyć tego skryptu aby pobrać cały folder z cda.pl
 Wymagania:
 
  - lynx<br>
- - youtube-dl
- - aria2
+ - nodejs
+ - npm
  
-  `sudo apt-get install lynx youtube-dl aria2`
+  `sudo apt-get install lynx nodejs npm`
 ## Jak używać
 ***Wersja Bash***:
-<br>
+`npm install`
+
 `./cda_dl.sh "link"`
 <br>Np: `./cda_dl.sh https://www.cda.pl/uzytkownik/folder/12345678` 
 <br>
