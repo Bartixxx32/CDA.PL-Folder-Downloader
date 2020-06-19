@@ -8,11 +8,12 @@ COPY qemu-${ARCH}-static /usr/bin
 
 RUN uname -ar > /uname.build
 RUN echo "http://dl-4.alpinelinux.org/alpine/edge/testing" >> /etc/apk/repositories
-RUN apk update ; apk upgrade ; apk add --no-cache lynx make zip pandoc python git aria2
-RUN git clone https://github.com/divadsn/youtube-dl.git -b 3574d22de9
-WORKDIR youtube-dl
-RUN make
-RUN make install
+RUN apk update ; apk upgrade ; apk add --no-cache lynx nodejs npm
 COPY cda_dl-docker.sh .
+COPY cdadl.js . 
+COPY package.json .
+COPY bridge.sh .
+RUN npm install
 RUN chmod +x cda_dl-docker.sh
+RUN chmod +x bridge.sh
 ENTRYPOINT ["sh", "cda_dl-docker.sh"]
