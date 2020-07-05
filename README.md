@@ -7,8 +7,9 @@ Wymagania:
  - lynx<br>
  - nodejs
  - npm
+ - screen
  
-  `sudo apt-get install lynx nodejs npm`
+  `sudo apt-get install lynx nodejs npm screen`
 ## Jak używać
 ***Wersja Bash***:
 `npm install`
