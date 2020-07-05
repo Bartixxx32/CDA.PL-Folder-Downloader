@@ -105,7 +105,7 @@ function downloadMovie(movieURL) {
     filenamePrefix = title.replace(/[^a-z0-9]/gi, '.');
 
     fl = filenamePrefix + "." + fl.split("/").pop().trim();
-    fl = fl.replace(/\.\./g,".");
+    fl = (title + ".mp4")
     console.log("outfile:", fl);
 
     var fileSizeInBytes = 0;
