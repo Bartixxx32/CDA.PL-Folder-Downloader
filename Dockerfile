@@ -1,5 +1,4 @@
 FROM alpine:edge AS BUILD_IMAGE
-RUN uname -ar > /uname.build
 RUN echo "http://dl-4.alpinelinux.org/alpine/edge/testing" >> /etc/apk/repositories
 RUN apk update ; apk upgrade ; apk add --no-cache nodejs npm curl g++ make python3
 COPY cda_dl-docker.sh .
@@ -12,9 +11,8 @@ RUN npm install
 RUN npm prune --production
 
 FROM alpine:edge
-RUN uname -ar > /uname.build
 RUN echo "http://dl-4.alpinelinux.org/alpine/edge/testing" >> /etc/apk/repositories
-RUN apk update ; apk upgrade ; apk add --no-cache lynx nodejs screen
+RUN apk update ; apk upgrade ; apk add --no-cache lynx nodejs
 COPY --from=BUILD_IMAGE node_modules ./node_modules
 COPY --from=BUILD_IMAGE cda_dl-docker.sh ./cda_dl-docker.sh
 COPY --from=BUILD_IMAGE cdadl.js ./cdadl.js

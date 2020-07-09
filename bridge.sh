@@ -3,7 +3,7 @@ echo
 echo
 echo
 echo Przenoszenie pobranego pliku do systemu hosta ...
-screen -dm mv *.mp4 Pobrane
+mv *.mp4 Pobrane
 echo
 echo
 echo
