@@ -7,7 +7,6 @@ Wymagania:
  - lynx<br>
  - nodejs
  - npm
- - screen
  
   `sudo apt-get install lynx nodejs npm screen`
 ## Jak używać
