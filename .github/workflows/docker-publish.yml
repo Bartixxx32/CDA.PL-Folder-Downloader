@@ -33,8 +33,8 @@ jobs:
             --cache-to "type=local,dest=/tmp/.buildx-cache" \
             --platform linux/386,linux/amd64,linux/arm/v6,linux/arm/v7,linux/arm64,linux/ppc64le,linux/s390x \
             --output "type=image,push=false" \
-            --tag crazymax/diun:latest \
-            --file ./Dockerfile-diun ./
+            --tag bartixxx32/cdapl-dl:latest \
+            --file ./Dockerfile .
       -
         name: Docker Login
         env:
