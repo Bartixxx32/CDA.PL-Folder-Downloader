@@ -29,7 +29,7 @@ jobs:
             name: Build dockerfile (with push)
             run: |
                 docker buildx build \
-                --platform=linux/amd64,linux/arm/v7,linux/arm64 \
+                --platform=linux/386,linux/amd64,linux/arm/v6,linux/arm/v7,linux/arm64,linux/ppc64le,linux/s390x \
                 --output "type=image,push=true" \
                 --file ./Dockerfile . \
                 --tag bartixxx32/cdapl-dl:latest
