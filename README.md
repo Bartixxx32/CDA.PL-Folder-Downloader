@@ -9,6 +9,9 @@ Wymagania:
  - npm
  
   `sudo apt-get install lynx nodejs npm screen`
+  `git clone https://github.com/Bartixxx32/CDA.PL-Folder-Downloader`
+  `cd CDA.PL-Folder-Downloader`
+  `npm install`
 ## Jak używać
 ***Wersja Bash***:
 `npm install`
