@@ -16,10 +16,10 @@ Wymagania:
   <br>
   `npm install`
 ## Jak używać
-***Wersja Bash***:
-`npm install`
-
+***Wersja Bash***:<br>
+`npm install`<br>
 `./cda_dl.sh "link"`
+<br>
 <br>Np: `./cda_dl.sh https://www.cda.pl/uzytkownik/folder/12345678` 
 <br>
 <br>***Wersja Docker***
