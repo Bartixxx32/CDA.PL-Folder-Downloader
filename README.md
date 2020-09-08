@@ -1,5 +1,5 @@
 # CDA.PL Folder Downloader
-Możesz użyć tego skryptu aby pobrać cały folder z cda.pl
+Program/Skrypt do pobierania całego folderu z cda.pl
 
 
 Wymagania:
