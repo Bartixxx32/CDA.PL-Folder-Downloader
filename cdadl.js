@@ -106,7 +106,7 @@ function downloadMovie(movieURL) {
 
     fl = filenamePrefix + "." + fl.split("/").pop().trim();
     fl = (title + ".mp4")
-    console.log("outfile(test):", fl);
+    console.log("outfile:", fl);
     fs.appendFileSync('lista.txt', movieURL+'\r\n');
     fs.appendFileSync('lista.txt', " out="+fl+'\r\n');
     process.exit()

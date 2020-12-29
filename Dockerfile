@@ -1,6 +1,6 @@
 FROM alpine:edge AS BUILD_IMAGE
 RUN echo "http://dl-4.alpinelinux.org/alpine/edge/testing" >> /etc/apk/repositories
-RUN apk update ; apk upgrade ; apk add --no-cache nodejs npm
+RUN apk update ; apk upgrade ; apk add --no-cache nodejs npm curl g++ make python3
 COPY package.json .
 RUN npm install
 RUN npm prune --production
