@@ -14,5 +14,4 @@ COPY cdadl.js .
 COPY bridge.sh .
 RUN chmod +x cda_dl-docker.sh
 RUN chmod +x bridge.sh
-RUN touch lista.txt
 ENTRYPOINT ["sh", "cda_dl-docker.sh"]
