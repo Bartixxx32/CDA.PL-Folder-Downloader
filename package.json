@@ -4,16 +4,16 @@
   "description": "cda downloader just gets videos from cda.pl",
   "main": "cdadl.js",
   "dependencies": {
-    "crawler": "^1.3.0",
+    "crawler": "^0.4.3",
     "fs": "0.0.2",
     "js-beautify": "^1.10.2",
     "moment": "^2.24.0",
     "readline-sync": "^1.4.10",
     "request": "^2.88.0",
-    "request-progress": "^3.0.0",
+    "request-progress": "^2.0.1",
     "set-cookie-parser": "^1.0.2",
     "url": "^0.11.0",
-    "util": "^0.12.3"
+    "util": "^0.10.4"
   },
   "devDependencies": {},
   "scripts": {
