@@ -17,7 +17,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node cdadl.js https://www.cda.pl/video/662013209"
   },
   "url": "https://github.com/rostok/cdadl/",
   "author": "rostok",
