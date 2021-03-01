@@ -11,7 +11,7 @@
     "readline-sync": "^1.4.10",
     "request": "^2.88.0",
     "request-progress": "^3.0.0",
-    "set-cookie-parser": "^1.0.2",
+    "set-cookie-parser": "^2.4.8",
     "url": "^0.11.0",
     "util": "^0.12.3"
   },
