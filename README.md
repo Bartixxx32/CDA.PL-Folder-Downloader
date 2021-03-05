@@ -1,30 +1,26 @@
+
+
 # CDA.PL Folder Downloader
-Program/Skrypt do pobierania całego folderu z cda.pl
+Możesz użyć tego skryptu aby pobrać cały folder z cda.pl
 
 
-Wymagania>
+Wymagania:
 
  - lynx<br>
- - nodejs
- - npm
+ - youtube-dl
+ - aria2
  
-  `sudo apt-get install lynx nodejs npm screen`
-  <br>
-  `git clone https://github.com/Bartixxx32/CDA.PL-Folder-Downloader`
-  <br>
-  `cd CDA.PL-Folder-Downloader`
-  <br>
-  `npm install`
+  `sudo apt-get install lynx youtube-dl aria2`
 ## Jak używać
-***Wersja Bash***:<br>
-`npm install`<br>
-`./cda_dl.sh "link"`
+***Wersja Bash***:
 <br>
-<br>Np: `./cda_dl.sh https://www.cda.pl/uzytkownik/folder/12345678` 
+`./cda_dl.sh "link" "ścieżka"`
+<br>Np: `./cda_dl.sh https://www.cda.pl/uzytkownik/folder/12345678 ./Pobrane` 
 <br>
 <br>***Wersja Docker***
- 
-    docker pull bartixxx32/cdapl-dl:latest ; docker run -it --rm -v "$PWD/Pobrane:/Pobrane" bartixxx32/cdapl-dl "link"
+
+    docker pull bartixxx32/cdapl-dl:latest 
+    docker run -it -v $PWD/Pobrane:/Pobrane bartixxx32/cdapl-dl "link"
 *Pobrane pliki znajdziemy w folderze Pobrane w aktualnej ścieżce* 
 
 
