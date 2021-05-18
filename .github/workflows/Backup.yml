@@ -1,0 +1,12 @@
+name: Backup
+
+on:
+  push:
+
+jobs:
+  backup:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: sdruskat/swh-save-action@v1.0.1
