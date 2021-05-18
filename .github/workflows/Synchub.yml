@@ -1,0 +1,10 @@
+steps:
+- uses: actions/checkout@master
+
+- uses: meeDamian/sync-readme@v1.0.6
+  with:
+    user: bartixxx32
+    pass: ${{ secrets.DOCKERHUB_TOKEN }}
+    slug: bartixxx32/cdapl-dl
+    readme: ./README.md
+    description: A must-have container, that you can't live without.
