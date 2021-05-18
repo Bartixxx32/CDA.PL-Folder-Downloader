@@ -1,3 +1,4 @@
+name: DockerHub sync
 steps:
 - uses: actions/checkout@master
 
