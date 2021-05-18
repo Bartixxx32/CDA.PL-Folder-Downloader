@@ -31,5 +31,4 @@ Wymagania>
 
 
 
-
 [![](https://images.microbadger.com/badges/image/bartixxx32/cdapl-dl.svg)](https://microbadger.com/images/bartixxx32/cdapl-dl "Badge")
