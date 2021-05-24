@@ -10,7 +10,7 @@ Wymagania>
  - screen
  - aria2c
  
-  `sudo apt-get install lynx nodejs npm screen aria2c`
+  `sudo apt-get install lynx nodejs npm screen aria2`
   <br>
   `git clone https://github.com/Bartixxx32/CDA.PL-Folder-Downloader`
   <br>
