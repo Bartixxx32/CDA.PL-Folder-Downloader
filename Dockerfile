@@ -4,8 +4,6 @@ RUN apk update ; apk upgrade ; apk add --no-cache nodejs npm curl g++ make pytho
 COPY package.json .
 RUN npm install --only=production
 RUN npm prune --production
-RUN curl -sfL https://install.goreleaser.com/github.com/tj/node-prune.sh | bash -s -- -b /usr/local/bin
-RUN /usr/local/bin/node-prune
 
 FROM alpine:edge
 RUN echo "http://dl-4.alpinelinux.org/alpine/edge/testing" >> /etc/apk/repositories
