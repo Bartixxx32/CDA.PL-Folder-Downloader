@@ -7,7 +7,7 @@
     "crawler": "^0.4.3",
     "fs": "0.0.2",
     "https": "^1.0.0",
-    "moment": "^2.24.0",
+    "moment": "^2.29.1",
     "readline-sync": "^1.4.10",
     "request": "^2.88.0",
     "request-progress": "^2.0.1",
