@@ -9,7 +9,7 @@
     "https": "^1.0.0",
     "moment": "^2.24.0",
     "readline-sync": "^1.4.10",
-    "request": "^2.88.0",
+    "request": "^2.88.2",
     "request-progress": "^2.0.1",
     "util": "^0.10.4"
   },
