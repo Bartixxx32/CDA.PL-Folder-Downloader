@@ -11,7 +11,7 @@
     "readline-sync": "^1.4.10",
     "request": "^2.88.0",
     "request-progress": "^2.0.1",
-    "util": "^0.10.4"
+    "util": "^0.12.4"
   },
   "devDependencies": {},
   "scripts": {
