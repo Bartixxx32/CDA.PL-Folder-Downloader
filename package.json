@@ -10,7 +10,7 @@
     "moment": "^2.24.0",
     "readline-sync": "^1.4.10",
     "request": "^2.88.0",
-    "request-progress": "^2.0.1",
+    "request-progress": "^3.0.0",
     "util": "^0.10.4"
   },
   "devDependencies": {},
