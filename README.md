@@ -6,23 +6,21 @@ Program/Skrypt do pobierania całego folderu z cda.pl
 Wymagania
 
  - lynx<br>
- - nodejs
- - npm
  - aria2c
  
-  `sudo apt-get install lynx nodejs npm aria2`
+  `sudo apt-get install lynx aria2`
   <br>
   `git clone https://github.com/Bartixxx32/CDA.PL-Folder-Downloader`
   <br>
   `cd CDA.PL-Folder-Downloader`
   <br>
-  `npm install`
 ## Jak używać
 ***Wersja Bash***:<br>
-`npm install`<br>
 `./cda_dl.sh "link"`
 <br>
 <br>Np: `./cda_dl.sh https://www.cda.pl/uzytkownik/folder/12345678` 
+<br>Jeżeli folder posiada kilka stron, skrypt należy uruchomić dla każdej strony:
+<br>Np: `./cda_dl.sh https://www.cda.pl/uzytkownik/folder/12345678/2`
 <br>
 <br>***Wersja Docker***
  
